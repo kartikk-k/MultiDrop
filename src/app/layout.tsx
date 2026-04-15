@@ -13,8 +13,31 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Color Dropper",
-  description: "Drop color codes onto images for easy sharing with AI agents",
+  title: "MultiDrop — Pick multiple colors from any image",
+  description:
+    "Drop an image, pick multiple colors at once, and copy the annotated image with hex codes. Built for designers and developers who share colors with AI agents.",
+  keywords: [
+    "color picker",
+    "hex color",
+    "image color picker",
+    "multiple colors",
+    "design tool",
+    "AI agent",
+    "color dropper",
+    "eyedropper",
+  ],
+  openGraph: {
+    title: "MultiDrop — Pick multiple colors from any image",
+    description:
+      "Drop an image, pick multiple colors at once, and copy the annotated image with hex codes.",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "MultiDrop — Pick multiple colors from any image",
+    description:
+      "Drop an image, pick multiple colors at once, and copy the annotated image with hex codes.",
+  },
 };
 
 export default function RootLayout({
