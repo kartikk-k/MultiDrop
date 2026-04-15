@@ -31,12 +31,14 @@ export const metadata: Metadata = {
     description:
       "Drop an image, pick multiple colors at once, and copy the annotated image with hex codes.",
     type: "website",
+    images: [{ url: "/og.png" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "MultiDrop — Pick multiple colors from any image",
     description:
       "Drop an image, pick multiple colors at once, and copy the annotated image with hex codes.",
+    images: ["/og.png"],
   },
 };
 
